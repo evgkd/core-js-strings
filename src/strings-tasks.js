@@ -454,8 +454,8 @@ function extractEmails(str) {
  *    => 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'
  *
  */
-function encodeToRot13(str) {
-  return;
+function encodeToRot13(/* str */) {
+  throw new Error('Not implemented');
 }
 
 /**
